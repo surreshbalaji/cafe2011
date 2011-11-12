@@ -1,0 +1,101 @@
+It would still be possible to use an abstract factory for the purposes of a generic view.
+
+how to add aggregates to generic view?
+
+State for orders
+Proxy for ORM
+
+interface for display of data in abstract view.
+
+Generic views - physical views might still exist but they extend the generic view which does all the work.
+
+
+
+    public static void index() {
+        List<Item> items = Item.findAll();
+
+        for each item
+            item.totalTimesOrdered = select count(*) from orderitems oi where oi.ItemId = item.ID
+            av = new AggregateVisitor;
+            
+
+
+
+    }
+
+    #wrapper adds report to item
+
+    class AggregateVisitor  {
+        private int sum = 0;
+
+        VisitItem(Item item) {
+
+        }
+
+        Visit 
+    }
+
+    class ReportModel : Model {
+        V
+    }
+
+
+    class Order
+        BaseOrder order;
+
+
+    class BaseOrder
+        virtual addItem()
+        virtual removeItem()
+        virtual finalizeOrder()
+        virtual closeOrder()
+
+    class OpenOrder : Order
+
+    class ClosedOrder : Order
+
+    class PaidOrder : Order
+
+
+Class Model
+
+Classes that inherit from Model
+Item
+Menu
+Order
+Category
+MenuCategory
+OrderItem
+
+
+
+
+StatePattern:
+
+Class OpenItem inherits Item - on save edit item
+Class FinalizedItem inherits Item - on save create new item
+
+
+Class Controller
+
+Classes that inherit from controller
+ItemController
+MenuController
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

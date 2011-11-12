@@ -1,0 +1,26 @@
+#{set title:'index.html' /}
+
+<h1>All Orders</h1>
+
+#{ifnot orders}
+    <p>
+        No Orders Found
+    </p>
+#{/ifnot}
+#{else}
+   <table>
+       <thead>
+           <tr>
+               <th>Order ID</th>
+           </tr>
+       </thead>
+       <tbody>
+           #{list orders, as:'order'}
+               <tr>
+                   <td>${order.id}</td>
+                   <td><a href="@{view(order.id)}">View</a></td>
+               </tr>
+           #{/list}
+       </tbody>
+   </table> 
+#{/else}

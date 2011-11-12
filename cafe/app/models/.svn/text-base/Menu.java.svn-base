@@ -1,0 +1,14 @@
+package models; 
+
+import java.util.*;
+import javax.persistence.*;
+
+import play.db.jpa.*;
+
+@Entity
+public class Menu extends CafeGenericModel {
+    
+    @OneToMany
+    private List<MenuCategory> menuCategories;
+    
+}

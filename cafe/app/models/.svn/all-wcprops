@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/repos/cafe/!svn/ver/10/app/models
+END
+MenuCategoryItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/repos/cafe/!svn/ver/10/app/models/MenuCategoryItem.java
+END
+Menu.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/repos/cafe/!svn/ver/10/app/models/Menu.java
+END
+CafeGenericModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/repos/cafe/!svn/ver/6/app/models/CafeGenericModel.java
+END
+Category.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/repos/cafe/!svn/ver/10/app/models/Category.java
+END
+MenuCategory.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/repos/cafe/!svn/ver/10/app/models/MenuCategory.java
+END
+Aggregator.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/repos/cafe/!svn/ver/10/app/models/Aggregator.java
+END
+Item.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/repos/cafe/!svn/ver/9/app/models/Item.java
+END

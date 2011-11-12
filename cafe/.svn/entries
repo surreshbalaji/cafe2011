@@ -1,0 +1,80 @@
+10
+
+dir
+11
+http://testkn.dyndns.tv/svn/repos/cafe
+http://testkn.dyndns.tv/svn/repos/cafe
+
+
+
+2011-11-09T23:07:58.400793Z
+11
+cafe
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+db6200d2-debb-462b-8522-81c19685a30f
+
+app
+dir
+
+conf
+dir
+
+design_thoughts.txt
+file
+
+
+
+
+2011-11-10T01:56:16.390000Z
+586e274e7e7e58da40160c04e5fe74b3
+2011-10-23T19:49:58.149972Z
+7
+cafe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1386
+
+lib
+dir
+
+public
+dir
+
+test
+dir
+
+tmp
+dir
+

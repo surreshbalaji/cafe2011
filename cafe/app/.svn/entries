@@ -1,0 +1,37 @@
+10
+
+dir
+11
+http://testkn.dyndns.tv/svn/repos/cafe/app
+http://testkn.dyndns.tv/svn/repos/cafe
+
+
+
+2011-11-09T23:07:58.400793Z
+11
+cafe
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+db6200d2-debb-462b-8522-81c19685a30f
+
+controllers
+dir
+
+models
+dir
+
+views
+dir
+

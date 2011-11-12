@@ -1,0 +1,68 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+
+<script typwe="text/javascript">
+<!--
+
+    data = new Array();
+
+    %{ for (mc in menu.menuCategories) { }%
+      data['${mc.category.name}'] = new Array();
+      cmc = data['${mc.category.name}'];
+      %{ for (mci in mc.menuCategoryItems) { }%
+        cmc['${mci.Item.id}'] = 1;
+      %{ } }%
+      
+    %{ } }%
+
+    function containsCategory(categoryName) {
+        if (cmc[categoryName]) {
+            return true;
+        }
+        return false;
+    }
+    function containsItem(categoryName, itemId) {
+        if (cmc[categoryName] && cmc[categoryName][itemId]) {
+            return true;
+        }
+        return false;
+    }
+    
+    function checkBoxes() {
+        cats = $('input.category','#formId');
+        
+        cats.each( function(cat) {
+            cats.checked = containsItem(cat.getAttribute("categoryname"));          
+            items = $('input.item', '#' + cat.id);
+ 
+            items.each( function(item) {
+                item.checked = containsItem(cat.getAttribute("categoryname"), item.getAttribute("itemId"));        
+            });
+        });
+    }
+    
+//-->
+</script>
+
+
+#{form @Menus.edit(menu.id)}
+
+<!-- nested loops through menucategories and then menucategoryitems
+going to need to loop through items to display checkboxes, use javascript perhaps to check the boxes.
+ -->
+ 
+%{ for (category in categories) { }%
+  <h4>${ category.name } </h4>
+  %{ for (item in items) { }%
+     <input type="checkbox" name="name" id="name" value="${item.id}"/> ${item.name}
+  %{ } }% 
+ 
+%{ } }%  
+
+        <input type="submit" value="Save" />
+    </p>
+#{/form}
+
+

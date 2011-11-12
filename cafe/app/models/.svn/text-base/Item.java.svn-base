@@ -1,0 +1,36 @@
+package models; 
+
+import java.util.*;
+import javax.persistence.*;
+
+import play.db.jpa.*;
+
+@Entity
+public class Item extends CafeGenericModel {
+	
+    public String name;
+
+	@Lob
+	public String description;
+	
+
+	public Item() {
+	}
+
+	public Item(String name, String description) {
+	    this.name = name;
+	    this.description = description;
+	}
+
+    public String display() {
+        return "id: " + id + "  name: " + name + " - " + description;
+    }
+    
+    @OneToMany
+    private List<MenuCategory> menuCategories;
+    
+    
+    @OneToMany
+    private List<MenuCategory> menuCategoryItems;  
+
+}

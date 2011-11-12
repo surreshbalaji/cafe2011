@@ -1,0 +1,11 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+
+<ul>
+%{ for (item in items) { }%
+
+    <li>${item.toString()} -- ${item.display()} </li>
+
+%{ } }%
+</ul>

@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/repos/cafe/!svn/ver/9/tmp/bytecode/DEV
+END
+_play__framework_templates_tags_welcome.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/repos/cafe/!svn/ver/1/tmp/bytecode/DEV/_play__framework_templates_tags_welcome.html
+END
+helpers.CheatSheetHelper
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/repos/cafe/!svn/ver/1/tmp/bytecode/DEV/helpers.CheatSheetHelper
+END
+_app_views_Application_index.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/repos/cafe/!svn/ver/1/tmp/bytecode/DEV/_app_views_Application_index.html
+END
+_app_views_errors_404.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/repos/cafe/!svn/ver/1/tmp/bytecode/DEV/_app_views_errors_404.html
+END
+_app_views_errors_500.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/repos/cafe/!svn/ver/1/tmp/bytecode/DEV/_app_views_errors_500.html
+END
+_play__framework_templates_tags_404.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/repos/cafe/!svn/ver/1/tmp/bytecode/DEV/_play__framework_templates_tags_404.html
+END
+controllers.PlayDocumentation
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/repos/cafe/!svn/ver/1/tmp/bytecode/DEV/controllers.PlayDocumentation
+END
+_play__framework_templates_tags_500.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/repos/cafe/!svn/ver/1/tmp/bytecode/DEV/_play__framework_templates_tags_500.html
+END
+helpers.CheatSheetHelper$1
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/repos/cafe/!svn/ver/1/tmp/bytecode/DEV/helpers.CheatSheetHelper$1
+END
+helpers.CheatSheetHelper$2
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/repos/cafe/!svn/ver/1/tmp/bytecode/DEV/helpers.CheatSheetHelper$2
+END
+_app_views_main.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/repos/cafe/!svn/ver/1/tmp/bytecode/DEV/_app_views_main.html
+END
+helpers.CheatSheetHelper$3
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/repos/cafe/!svn/ver/1/tmp/bytecode/DEV/helpers.CheatSheetHelper$3
+END
+models.Item
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/repos/cafe/!svn/ver/9/tmp/bytecode/DEV/models.Item
+END
+controllers.Application
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/repos/cafe/!svn/ver/1/tmp/bytecode/DEV/controllers.Application
+END
+DocViewerPlugin
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/repos/cafe/!svn/ver/1/tmp/bytecode/DEV/DocViewerPlugin
+END

@@ -1,0 +1,50 @@
+<html>
+<head>
+<body>
+#{form @additemtoorder()}
+<table>
+%{ for (o in order) { }%
+    <tr><td><strong>Order ID:</strong> ${o.id} </td> </tr>
+    <tr><td width = "300px"><strong>Order Date:</strong> ${o.date} </td> </tr>
+    <tr><td><strong>Order Status:</strong> ${o.getOrderStatus().value} </td> </tr>
+    <tr><td width = "250px"><strong>Item Name</strong></td>
+		<td width = "250px"><strong>Description</strong></td>
+		<td width = "250px"><strong>Quantity</strong></td></tr>    
+%{ for (oi in order.orderitem) { }%
+    <tr><td width = "250px"> ${oi.item.name} </td>
+    <td width = "250px">${oi.item.description} </td>
+    <td width = "250px">${oi.count} </td> 
+    <td width = "250px">  <a href="@{remove(oi.id)}">Remove</a>    </td> </tr>
+%{ }} }%
+</table>
+    <table>
+    <p>
+    <tr>
+    <td>
+        <strong>select items:</strong>
+        <select id="iteminfo" name="iteminfo">
+  %{ for (mc in menu.menucategories) { }%     
+%{ for (mci in mc.menucategoryitems) { }%
+
+     &nbsp;<option value="${mci.item.id}"> 
+     ${mci.item.name}</option>
+  %{ }} }% 
+ </select>
+    </p>
+    <td>
+    <td>
+    quantity: <input type="text" name="quantity" id="quantity"	 /><br />
+    </td>
+    <td>
+     <input type="submit" value="add item">    
+
+    </td>
+    
+    </tr>
+        </table>
+    <a href="@{index()}">Go back to Orders</a>    
+    </p>
+#{/form}
+</body>
+</head>
+</html>

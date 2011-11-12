@@ -1,0 +1,71 @@
+10
+
+dir
+11
+http://testkn.dyndns.tv/svn/repos/cafe/tmp/classes
+http://testkn.dyndns.tv/svn/repos/cafe
+
+
+
+2011-11-08T22:13:34.612704Z
+9
+cafe
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+db6200d2-debb-462b-8522-81c19685a30f
+
+DocViewerPlugin.class
+file
+
+
+
+
+2011-11-10T01:56:15.671000Z
+ac96b5d2a66de5100a834580d0ac58cd
+2011-10-21T20:30:24.048705Z
+1
+cafe
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4657
+
+controllers
+dir
+
+helpers
+dir
+
+models
+dir
+

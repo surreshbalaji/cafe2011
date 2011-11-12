@@ -1,0 +1,19 @@
+<html>
+<head>
+<body>
+<ul>
+%{ for (mc in menu.menucategories) { }%
+
+     
+    <li>${mc.Category.name} </li>
+%{ for (mci in mc.menucategoryitems) { }%
+    <ul>
+    <li>${mci.item.name} </li>
+    <li>${mci.item.description} </li>
+    </ul>
+%{ }} }%
+
+</ul>
+</body>
+</head>
+</html>

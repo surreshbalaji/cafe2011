@@ -1,0 +1,33 @@
+#{set title:'index.html' /}
+
+<h1>All Orders</h1>        	 
+
+<a href="@{create()}">Create new Order</a>
+#{ifnot orders}
+    <p>
+        No Orders Found
+    </p>
+#{/ifnot}
+#{else}
+   <table>
+           <tr> 
+               <td width = "100px">Order ID</td>
+               <td width = "100px">Status</td>
+           </tr>
+           #{list orders, as:'order'}
+               <tr>
+                   <td width = "100px">${order.id}</td>
+                   <td width = "100px">${order.getOrderStatus().value}</td>
+                   <td width = "100px"><a href="@{view(order.id)}">View</a></td>
+                   #{if order.getOrderStatus().value == "open"}
+                   <td width = "100px">
+                   #{a @cancel(order.id)}Cancel#{/a} 
+                   </td>
+                   <td width = "100px">
+                   #{a @edit(order.id)}Edit#{/a} 
+                   </td>
+ 					#{/if}            
+               </tr>
+           #{/list}
+   </table>
+#{/else} 

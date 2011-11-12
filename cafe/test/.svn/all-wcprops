@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/repos/cafe/!svn/ver/1/test
+END
+BasicTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/repos/cafe/!svn/ver/1/test/BasicTest.java
+END
+data.yml
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/repos/cafe/!svn/ver/1/test/data.yml
+END
+Application.test.html
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/repos/cafe/!svn/ver/1/test/Application.test.html
+END
+ApplicationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/repos/cafe/!svn/ver/1/test/ApplicationTest.java
+END

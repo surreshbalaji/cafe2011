@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/repos/cafe/!svn/ver/9/conf
+END
+application.conf
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/repos/cafe/!svn/ver/1/conf/application.conf
+END
+dependencies.yml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/repos/cafe/!svn/ver/1/conf/dependencies.yml
+END
+routes
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/repos/cafe/!svn/ver/9/conf/routes
+END
+messages
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/repos/cafe/!svn/ver/1/conf/messages
+END

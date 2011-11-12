@@ -1,0 +1,12 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+modelName: ${modelName} <br />
+
+<ul>
+%{ for (obj in objects) { }%
+
+    <li>${obj.toString()} -- ${obj.display()} </li>
+
+%{ } }%
+</ul>

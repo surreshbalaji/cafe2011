@@ -1,0 +1,23 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                                       Application.index
+
+# Ignore favicon requests
+GET     /favicon.ico                            404
+
+# Map static resources from the /app/public folder to the /public path
+GET     /public/                                staticDir:public
+
+# Generic views pages here
+# *       /Items/                                 Generic.index(modelName:'Item')
+# *       /Items/{action}                         Generic.{action}(modelName:'Item')
+
+# Catch all
+ *       /{controller}/{action}                  {controller}.{action}
+ *       /{controller}/                          {controller}.index
+
+# *       /{controller}/                          Generic.index(controller:{controller})
+# *       /{controller}/{action}                  Generic.{action}(controller:{controller})

@@ -1,0 +1,23 @@
+#{set title:'view.html' /}
+<body>
+<h1>View Order</h1>
+<table>
+%{ for (o in order) { }%
+    <tr><td><strong>Order ID:</strong> ${o.id} </td> </tr>
+    <tr><td width = "300px"><strong>Order Date:</strong> ${o.date} </td> </tr>
+    <tr><td><strong>Order Status:</strong> ${o.getOrderStatus().value} </td> </tr>
+    <tr><td width = "250px"><strong>Item Name</strong></td>
+		<td width = "250px"><strong>Description</strong></td>
+		<td width = "250px"><strong>Price</strong></td>
+		<td width = "250px"><strong>Quantity</strong></td></tr>    
+%{ for (oi in order.orderitem) { }%
+    <tr><td width = "250px"> ${oi.item.name} </td>
+    <td width = "250px">${oi.item.description} </td>
+    <td width = "250px">${oi.item.price} </td>
+    <td width = "250px">${oi.count} </td> </tr>
+%{ }} }%
+</table>
+    <p>
+        <a href="@{index()}">Back to Orders</a>      
+    </p>
+</body>

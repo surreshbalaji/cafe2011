@@ -26,7 +26,7 @@ public class Generic extends Controller {
         List<Model> objects = CafeGenericModel.getFactory(modelName).fetch(0,100,"id", "desc", null, null, null);
         render(objects, modelName);
 
-
+	system.out.println("hello");
 
     }
 }
